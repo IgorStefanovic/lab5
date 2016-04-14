@@ -1,7 +1,7 @@
-10:35:46 **** Build of project hello_world_bsp ****
+13:57:36 **** Build of project hello_world_bsp ****
 make -k all 
 libgen -hw ../basic_system_hw_platform/system.xml\
-	       -lp D:/work/lprs2/2013_2014/Resene_vezbe/lab45/basic_system\
+	       -lp C:/materija/IgorRA83-2013/LPRS2/lab5 -lp D:/work/lprs2/2013_2014/Resene_vezbe/lab56/basic_system\
 	       -pe microblaze_0 \
 	       -log libgen.log \
 	       system.mss
@@ -10,7 +10,8 @@ Xilinx EDK 14.6 Build EDK_P.68d
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
 Command Line: libgen -hw ../basic_system_hw_platform/system.xml -lp
-D:/work/lprs2/2013_2014/Resene_vezbe/lab45/basic_system -pe microblaze_0 -log
+C:/materija/IgorRA83-2013/LPRS2/lab5 -lp
+D:/work/lprs2/2013_2014/Resene_vezbe/lab56/basic_system -pe microblaze_0 -log
 libgen.log system.mss 
 
 
@@ -31,10 +32,11 @@ Compiling common
 Compiling standalone
 Compiling uartlite
 Compiling bram
+Compiling my_peripheral
 Compiling vga_periph_mem
 Compiling cpu
 Running execs_generate.
 Finished building libraries
 
-10:35:52 Build Finished (took 6s.930ms)
+13:57:45 Build Finished (took 9s.380ms)
 
